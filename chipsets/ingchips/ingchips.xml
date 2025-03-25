@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/ingchips/" name="origin" review="https://github.com/ingchips/"/>
-  <default remote="origin" revision="master" sync-j="4" />
+  <remote fetch="https://github.com/ingchips/" name="ingchips" review="https://openharmony.gitee.com/openharmony/"/>
 
-  <project name="ohos_device_soc_ingchips" path="device/soc/ingchips" groups="default,ohos:mini,ohos:chipset"/>
-  <project name="ohos_device_board_ingchips" path="device/board/ingchips" groups="default,ohos:mini,ohos:chipset"/>
-  <project name="ohos_vendor_ingchips" path="vendor/ingchips" groups="default,ohos:mini,ohos:chipset"/>
+  <project name="ohos_device_soc_ingchips" path="device/soc/ingchips" groups="default,ohos:mini,ohos:chipset" remote="ingchips" revision="master" />
+  <project name="ohos_device_board_ingchips" path="device/board/ingchips" groups="default,ohos:mini,ohos:chipset" remote="ingchips" revision="master" />
+  <project name="ohos_vendor_ingchips" path="vendor/ingchips" groups="default,ohos:mini,ohos:chipset" remote="ingchips" revision="master" />
 </manifest>

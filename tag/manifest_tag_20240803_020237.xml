@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="." review="https://openharmony.gitee.com/openharmony/"/>
+  <remote name="origin" fetch="https://gitee.com/openharmony/" review="https://openharmony.gitee.com/openharmony/"/>
   
   <default remote="origin" revision="master" sync-j="4"/>
   
